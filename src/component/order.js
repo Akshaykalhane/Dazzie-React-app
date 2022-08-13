@@ -42,19 +42,19 @@ const Order =()=>{
     <div className="order-container">
         <div className="order-info">
             <div className="order-info-box">
-                <div className="stat"><p>Customer</p> <p classNameName="loss"><i className='fa fa-arrow-down'></i></p> </div>
+                <div className="stat"><p>Customer</p> <p className="loss"><i className='fa fa-arrow-down'></i></p> </div>
                 <div className="stat"><p>1000</p> <p className="loss">-15%</p></div>
             </div>
             <div className="order-info-box">
-                <div className="stat"><p>Orders</p> <p classNameName="prof"><i className='fa fa-arrow-up'></i></p> </div>
+                <div className="stat"><p>Orders</p> <p className="prof"><i className='fa fa-arrow-up'></i></p> </div>
                 <div className="stat"><p>1050</p> <p className="prof">+20%</p></div>
             </div>
             <div className="order-info-box">
-                <div className="stat"><p>Revenue</p> <p classNameName="prof"><i className='fa fa-arrow-up'></i></p>  </div>
+                <div className="stat"><p>Revenue</p> <p className="prof"><i className='fa fa-arrow-up'></i></p>  </div>
                 <div className="stat"><p>$50.000</p> <p className="prof">+10%</p></div>
             </div>
             <div className="order-info-box">
-                <div className="stat"><p>Net Profit</p> <p classNameName="prof"><i className='fa fa-arrow-up'></i></p>  </div>
+                <div className="stat"><p>Net Profit</p> <p className="prof"><i className='fa fa-arrow-up'></i></p>  </div>
                 <div className="stat"><p>$20.000</p> <p className="prof">+12%</p></div>
             </div>
         </div>
