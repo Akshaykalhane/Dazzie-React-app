@@ -26,9 +26,9 @@ const Order =()=>{
     </header>
 
     <div className="side-bar">
-        <div classNameName="side-bar-btn">
+        <div className="side-bar-btn">
             <button ><Link to={'/'}><i className="fa fa-square-o" style={{color:'#000'}}></i></Link></button>
-            <button classNameName="active"> <Link to={'/order'}> <img src="./images/orders.svg" alt="" /></Link> </button>
+            <button className="active"> <Link to={'/order'}> <img src="./images/orders.svg" alt="" /></Link> </button>
             <button> <Link to={'/customer'}> <img src="./images/customer.svg" alt="" /></Link> </button>
             <button> <Link to={'/editproduct'}> <img src="./images/Package.svg" alt="" /></Link></button>
             <button ><Link to={'/coupen'}><img src="./images/Coupon Discount.svg" alt="" /></Link></button>
