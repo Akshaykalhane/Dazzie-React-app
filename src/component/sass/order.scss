@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$layout-color1:#5541d7;
+$layout-color2:#e2e2e2;
+$layout-color3:#f7f7f7;
+$layout-color4:#ffffff;
+
+body{
+    background-color: $layout-color3;
+}
+
+
+$text-color1:#11142d;
+$text-color2:#42bda1;
+$text-color3:#92929d;
+
+@mixin flexprops {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin border-style {
+    border: 1px solid red;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 1px 1px $layout-color2;
+    padding: 10px;
+    background-color: $layout-color4;
+    @include flexprops;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 11123213;
+}
+
+.logo{
+    width: 110px;
+    // border: 1px solid red;
+    @include flexprops();
+    margin-left: 20px;
+    // gap: 0.4rem;
+    .logo-square{
+        width: 30px;
+        height: 30px;
+        background-color: $layout-color2;
+        border-radius: 5px;
+    }
+    .logo-text{
+        font-size: 16px;
+    }
+}
+.user-info{
+    width: 200px;
+    // border: 1px solid red;
+    margin-right: 70px;
+    @include flexprops;
+}
+.user-details{
+    width: 130px;
+    // border: 1px solid black;
+    @include flexprops;
+    .user-circle{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $layout-color2;
+    }
+    .user-name{
+        h3{
+            font-size: 19px;
+            color: $text-color1;
+        }
+        p{
+            font-size: 15px;
+            color: $text-color3;
+        }
+    }
+}
+
+
+.side-bar{
+    width: 80px;
+    background-color: $layout-color4;
+    // border: 1px solid red;
+    min-height: 570px;
+    @include flexprops;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+    position: fixed;
+    top:60px;
+    left: 0;
+    bottom: 0;
+    box-shadow: 1px 1px 1px $layout-color2;
+    .side-bar-btn{
+        // border: 1px solid red;
+        @include flexprops;
+        flex-direction: column;
+        padding-top: 20px;
+        gap: 0.5rem;
+    }
+   .side-bar-btn button{
+        width: 40px;
+        height: 40px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        background-color: $layout-color4;
+        &:hover{
+            background-color: $layout-color1;
+        }
+    }
+    .active{
+        width: 40px;
+        height: 40px;
+        background-color: $layout-color1 !important;
+        border-radius: 5px;
+    }
+    
+    .setting-btn{
+        // border: 1px solid red;
+        @include flexprops;
+       position: absolute;
+       bottom: 20px;
+        button{
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            outline: none;   
+            border: none;
+            background-color: $layout-color4;
+        }
+    }
+  
+}
+
+@mixin flexprops {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-container{
+    max-width: 90%;
+    
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    left: 100px;
+    bottom: 20px;
+}
+
+.order-info{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    @include flexprops();
+    gap: 1rem;
+    flex-wrap: wrap;
+    .order-info-box{
+        width: 290px;
+        height: 90px;
+        border-radius: 6px;
+        background-color: $layout-color4;
+        box-shadow: 0px 0px 5px $layout-color2;
+        padding: 10px;
+        .stat{
+            @include flexprops();
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 18px;
+            font-variant-caps: $text-color1;
+            font-weight: bold;
+            .loss{
+                color: red;
+            }
+            .prof{
+                color: $text-color2;
+            }
+        }
+    }
+}
+
+.order-data{
+    width: 100%;
+    // height: 100px;
+    // border: 1px solid red;
+    margin-top: 20px;
+    // background-color: $layout-color4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+    @include flexprops();
+}
+.order-table{
+    width: 73%;
+    // border: 1px solid red;
+    position: relative;
+    box-shadow: 0px 0px 10px $layout-color2;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    background-color: $layout-color4;
+    border-radius: 6px;
+    h3{
+        color: $text-color1;
+        width: 100px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .inner-table{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    table{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        border-collapse: collapse;
+        border-spacing: 0;
+        overflow: hidden;
+        color: $text-color1;
+        tr{
+            text-align: center;
+            padding: 10px 10px;
+        }
+        td,th{
+            padding: 15px;
+        }
+        th{
+            background-color: $layout-color3;
+        }
+    }
+}
+
+.sold-item{
+    width: 25%;
+    height: 480px;
+    overflow: scroll;
+    // height: 100px;
+    background-color: $layout-color4;
+    // border: 1px solid red;
+    box-shadow: 0px 0px 10px $layout-color2;
+    border-radius: 6px;
+    position: relative;
+    top: 0;
+    left: 0;
+    &::-webkit-scrollbar{
+        width: 3px;
+        height:0px;
+        background-color: $layout-color2;
+        border-radius: 6px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: $layout-color1;
+    }
+    .sold-item-head{
+        width: 100%;
+        // border: 1px solid red;
+        @include flexprops();
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 15px;
+        h2{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        select{
+            width: 130px;
+            border: 2px solid $layout-color1;
+            padding: 6px;
+            color: $layout-color1;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            outline: none;
+        } 
+        &::after{
+            content: '';
+            width: 94%;
+            height: 2px;
+            background-color: $layout-color2;
+            position: absolute;
+            top: 60px;
+            left: 8px;
+        }
+    }
+}
+
+.sold-item-user{
+    width: 100%;
+    padding: 15px;
+    // border: 1px solid red;
+    position: relative;
+    top: 0;
+    left: 0;
+    .user-div{
+        width: 100%;
+        position: relative;
+        top: 0;
+        @include flexprops();
+        .user-info2{
+            width: 130px;
+            // border: 1px solid red;
+            @include flexprops();
+            margin-bottom: 10px;
+            .user-img1{
+                width: 50px;
+                height: 50px;
+                border-radius: 7px;
+                background-color: $layout-color2;
+                margin-right: 10px;
+            }
+            .user-name1{
+                font-size: 15px;
+                color: $text-color1;
+                font-weight: bold;
+            }
+        }
+        .item-quantity{
+            color: $text-color3;
+        }
+    }
+}

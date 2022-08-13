@@ -1,0 +1,186 @@
+@import './headerAndSidebar';
+
+
+$layout-color1:#5541d7;
+$layout-color2:#e2e2e2;
+$layout-color3:#f7f7f7;
+$layout-color4:#ffffff;
+
+body{
+    background-color: $layout-color3;
+}
+
+
+$text-color1:#11142d;
+$text-color2:#42bda1;
+$text-color3:#92929d;
+
+@mixin flexprops {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.edit-product-container{
+    max-width: 90%;
+    min-height: 1000px;
+    // border: 1px solid red;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    bottom: 20px;
+    right: 20px;
+    h2 {
+      font-size: 22px;
+      color: $text-color1;
+    }
+}
+.product-div{
+    width: 100%;
+  padding: 15px;
+  // border: 1px solid red;
+  background-color: $layout-color4;
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px $layout-color2;
+  margin-top: 25px;
+//   padding-top: 20px;
+}
+
+@mixin inputstyle {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 15px;
+    box-shadow: 0px 0px 2px rgba(94, 93, 93, 0.73);
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: $layout-color3;
+}
+
+@mixin labelstyle {
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 10px
+}
+
+.product-edit-form{
+    width: 100%;
+    padding: 10px;
+    // margin-top: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    .id-box{
+        width: 100%;
+        // border: 1px solid red;
+        margin-bottom: 10px;
+        label{
+        
+            @include labelstyle();
+        }
+       input{
+        
+        @include inputstyle();
+       }
+    }
+    .set-img{
+        width: 100%;
+        position: relative;
+        margin-top: 30px;
+        @include flexprops();
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 1rem;
+        .edit-img{
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+            background-color: $layout-color2;
+        }
+        .edit-img-text{
+            padding-top: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            font-size: 19px;
+            color: $text-color1;
+            @include labelstyle();
+        }
+       input{
+        font-size: 16px;
+
+       }
+    }
+    .product-name-edit{
+        width: 100%;
+        margin-top: 30px;
+        label{
+        
+
+            @include labelstyle();
+        }
+        input{
+            @include inputstyle();
+        }
+    }
+
+    .category-option{
+        width: 100%;
+        margin-top: 30px;
+        label{
+            @include labelstyle();
+        }
+        select{
+            @include inputstyle();
+        }
+    }
+    .price-div{
+        width: 100%;
+        margin-top: 30px;
+        label{
+            @include labelstyle();
+        }
+        input{
+            @include inputstyle();
+        }
+    }
+    .description{
+        width: 100%;
+        margin-top: 30px;
+        label{
+            @include labelstyle();
+        }
+        textarea{
+            @include inputstyle();
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+}
+
+.edit-btn-div{
+    // border: 1px solid red;
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+    button{
+        width: 100px;
+        padding: 15px;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        background-color: $layout-color1;
+        color: #fff;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+    .cancel-btn{
+        background-color: $layout-color4;
+        color: $text-color1;
+    }
+}

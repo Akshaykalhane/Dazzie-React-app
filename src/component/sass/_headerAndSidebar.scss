@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$layout-color1:#5541d7;
+$layout-color2:#e2e2e2;
+$layout-color3:#f7f7f7;
+$layout-color4:#ffffff;
+
+body{
+    background-color: $layout-color3;
+    font-family: 'Mulish';
+}
+
+
+$text-color1:#11142d;
+$text-color2:#42bda1;
+$text-color3:#92929d;
+
+@mixin flexprops {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin border-style {
+    border: 1px solid red;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 1px 1px $layout-color2;
+    padding: 10px;
+    background-color: $layout-color4;
+    @include flexprops;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 11123213;
+}
+
+.logo{
+    width: 120px;
+    // border: 1px solid red;
+    @include flexprops();
+    margin-left: 20px;
+    // gap: 0.4rem;
+    .logo-square{
+        width: 30px;
+        height: 30px;
+        background-color: $layout-color2;
+        border-radius: 5px;
+    }
+    .logo-text{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+}
+.user-info{
+    width: 200px;
+    // border: 1px solid red;
+    margin-right: 70px;
+    @include flexprops;
+}
+.user-details{
+    width: 130px;
+    // border: 1px solid black;
+    @include flexprops;
+    .user-circle{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $layout-color2;
+    }
+    .user-name{
+        h3{
+            font-size: 19px;
+            color: $text-color1;
+        }
+        p{
+            font-size: 15px;
+            color: $text-color3;
+        }
+    }
+}
+
+
+.side-bar{
+    width: 80px;
+    background-color: $layout-color4;
+    // border: 1px solid red;
+    min-height: 570px;
+    @include flexprops;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+    position: fixed;
+    top:60px;
+    left: 0;
+    bottom: 0;
+    box-shadow: 1px 1px 1px $layout-color2;
+    .side-bar-btn{
+        // border: 1px solid red;
+        @include flexprops;
+        flex-direction: column;
+        padding-top: 20px;
+        gap: 0.5rem;
+    }
+   .side-bar-btn button{
+        width: 40px;
+        height: 40px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        background-color: $layout-color4;
+        &:hover{
+            background-color: $layout-color1;
+        }
+    }
+    .active{
+        width: 40px;
+        height: 40px;
+        background-color: $layout-color1 !important;
+        border-radius: 5px;
+    }
+    
+    .setting-btn{
+        // border: 1px solid red;
+        @include flexprops;
+       position: absolute;
+       bottom: 20px;
+        button{
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            outline: none;   
+            border: none;
+            background-color: $layout-color4;
+        }
+    }
+  
+}
+
+@mixin flexprops {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

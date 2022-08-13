@@ -1,0 +1,161 @@
+@import './headerAndSidebar';
+
+$layout-color1: #5541d7;
+$layout-color2: #e2e2e2;
+$layout-color3: #f7f7f7;
+$layout-color4: #ffffff;
+
+body {
+  background-color: $layout-color3;
+}
+
+$text-color1: #11142d;
+$text-color2: #42bda1;
+$text-color3: #92929d;
+
+@mixin flexprops {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.exployee-container {
+    width: 90%;
+    min-height: 800px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    bottom: 20px;
+    right: 20px;
+    // border: 1px solid red;
+    .employee-container-header {
+      width: 100%;
+      // border: 1px solid red;
+      position: relative;
+      top: 0;
+      @include flexprops();
+      h2 {
+        font-size: 26px;
+      }
+      button {
+        width: 150px;
+        border: none;
+        padding: 15px;
+        outline: none;
+        color: #fff;
+        background-color: $layout-color1;
+        border-radius: 10px;
+        font-size: 17px;
+        font-weight: bold;
+      }
+    }
+  }
+  
+.employee-table{
+    width: 100%;
+    padding: 20px;
+    // border: 1px solid red;
+    background-color: $layout-color4;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px $layout-color2;
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
+.shift-timing{
+    width: 100%;
+    position: relative;
+    @include flexprops();
+    .time{
+        font-size: 19px;
+        color: $text-color1;
+    }
+    .add-more-icon{
+        width: 70px;
+        // border: 1px solid red;
+        @include flexprops();
+    }
+}
+
+.shift-detail{
+    width: 100%;
+    // border: 1px solid red;
+    margin-top: 30px;
+    position: relative;
+    @include flexprops();
+    gap: 1rem;
+    flex-wrap: wrap;
+    .employee-box{
+        width: 380px;
+        height: 110px;
+        // border: 1px solid red;
+        border-radius: 7px;
+        box-shadow: 0px 0px 2px rgba(99, 99, 99, 0.783);
+        padding: 10px;
+        @include flexprops();
+        // align-items: flex-start;
+        .employee-box-circle{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: $layout-color2;
+        }
+        .employee-text{
+            width: 190px;
+            // border: 1px solid red;
+            @include flexprops();
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            gap: 1rem;
+            h3{
+                font-size: 17px;
+                color: $text-color1;
+            }
+            .admin{
+                background-color: $layout-color2;
+                width: 70px;
+                color: $text-color3;
+                padding: 5px;
+                text-align: center;
+                border-radius: 4px;
+                font-weight: bold;
+            }
+            button{
+                outline: none;
+                border: none;
+                color: $layout-color1;
+                background-color: $layout-color4;
+                padding: 5px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .cashier{
+                background-color: #42bda043;
+                color: $text-color2;
+            }
+            .chef{
+                background-color: #ffd14869;
+                color: #f0bd26;
+            }
+            .waitress{
+                background-color: #5541d777;
+                color: #5541d7;
+            }
+            .dishwasher{
+                width: 100px;
+                background-color: $layout-color4;
+                border: 1px solid $layout-color1;
+                color: $layout-color1;
+            }
+        }
+        .exployee-edit{
+            // border: 1px solid red;
+            align-self: flex-start;
+        }
+
+    }
+}
