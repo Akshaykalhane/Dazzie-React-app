@@ -59,7 +59,7 @@ const Coupen = () => {
                                         <td>{item.discount}</td>
                                         <td>{item.start_date}</td>
                                         <td>{item.end_date}</td>
-                                        <td> <label for="" className="switch">
+                                        <td> <label className="switch">
                                             <input type="checkbox" checked={item.activate} />
                                             <span className="slider"></span>
                                         </label> </td>
