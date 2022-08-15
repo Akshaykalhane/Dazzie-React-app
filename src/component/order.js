@@ -33,12 +33,12 @@ const Order = () => {
                             <div className="order-info-box" key={item.id}>
                                 <div className="stat">
                                     <p>{item.title}</p>
-                                    <p classNameName={item.class}><i className={item.class}></i>
+                                    <p classNameName={item.class2}><i className={item.class}></i>
                                     </p>
                                 </div>
                                 <div className="stat">
                                     <p>{item.value}</p>
-                                    <p className={item.class}>{item.percentage}</p>
+                                    <p className={item.class2}>{item.percentage}</p>
                                 </div>
                             </div>
                         )

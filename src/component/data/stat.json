@@ -4,27 +4,31 @@
         "title":"Customer",
         "value":"1000",
         "percentage":"-15%",
-        "class":"fa fa-arrow-down loss"
+        "class":"fa fa-arrow-down loss",
+        "class2":"loss"
     },
     {
         "id":2,
         "title":"Orders",
         "value":"1050",
         "percentage":"+20%",
-        "class":"fa fa-arrow-up prof"
+        "class":"fa fa-arrow-up prof",
+        "class2":"prof"
     },
     {
         "id":3,
         "title":"Revenue",
         "value":"$50.000",
         "percentage":"+10%",
-        "class":"fa fa-arrow-up prof"
+        "class":"fa fa-arrow-up prof",
+        "class2":"prof"
     },
     {
         "id":4,
         "title":"Net Profit",
         "value":"$20.00",
         "percentage":"+12%",
-        "class":"fa fa-arrow-up prof"
+        "class":"fa fa-arrow-up prof",
+        "class2":"prof"
     }
 ]
