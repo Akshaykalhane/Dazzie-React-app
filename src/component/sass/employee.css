@@ -371,16 +371,19 @@ body {
 }
 
 .shift-detail .employee-box .employee-text .cashier {
+  width: 100px;
   background-color: #42bda043;
   color: #42bda1;
 }
 
 .shift-detail .employee-box .employee-text .chef {
+  width: 100px;
   background-color: #ffd14869;
   color: #f0bd26;
 }
 
 .shift-detail .employee-box .employee-text .waitress {
+  width: 100px;
   background-color: #5541d777;
   color: #5541d7;
 }

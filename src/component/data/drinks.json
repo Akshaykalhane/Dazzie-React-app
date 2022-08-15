@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "name":"Amazake",
+        "price":"$22",
+        "class":""
+    },
+    {
+        "id":2,
+        "name":"Royal Milk Tea",
+        "price":"$22",
+        "class":""
+    },
+    {
+        "id":3,
+        "name":"Flavored Soymilk Drinks",
+        "price":"$22",
+        "class":"shodow_hover"   
+        
+    }
+]

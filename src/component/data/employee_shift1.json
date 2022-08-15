@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "employee_name":"Brooklyn Simmons",
+        "position":"Admin",
+        "class":"admin"
+    },
+    {
+        "id":2,
+        "employee_name":"Dianne Russell",
+        "position":"Cashier",
+        "class":"admin cashier"
+    },
+    {
+        "id":3,
+        "employee_name":"Esther Howard",
+        "position":"Chef",
+        "class":"admin chef"
+    },
+    {
+        "id":4,
+        "employee_name":"Jenny Wilson",
+        "position":"Waitress",
+        "class":"admin waitress"
+    },
+    {
+        "id":5,
+        "employee_name":"Theresa Webb",
+        "position":"Dishwasher",
+        "class":"admin dishwasher"
+    },
+    {
+        "id":6,
+        "employee_name":"Ronaldo Richards",
+        "position":"Chef",
+        "class":"admin chef"
+    }
+]

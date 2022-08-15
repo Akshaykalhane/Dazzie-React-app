@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "no": "01",
+        "item": "Sashimi",
+        "quality": "30",
+        "revenue": "$293.01",
+        "networth": "$710.68"
+    },
+    {
+        "id":2,
+        "no": "02",
+        "item": "Unagi - Grilled Eel",
+        "quality": "30",
+        "revenue": "$739.65",
+        "networth": "$779.58"
+    },
+    {
+        "id": 3,
+        "no": "03",
+        "item": "Soba - Buckwheat Noodles",
+        "quality": "30",
+        "revenue": "$779.58",
+        "networth": "$105.55"
+    },
+    {
+        "id":4,
+        "no": "04",
+        "item": "Onigiri - Rice Balls",
+        "quality": "30",
+        "revenue": "$589.99",
+        "networth": "$475.22"
+    },
+    {
+        "id":5,
+        "no": "05",
+        "item": "Sashimi",
+        "quality": "30",
+        "revenue": "$406.27",
+        "networth": "$767.50"
+    },
+    {
+        "id":6,
+        "no": "06",
+        "item": "Yakitori - Grilled Chicken",
+        "quality": "30",
+        "revenue": "$396.84",
+        "networth": "$948.55"
+    },
+    {
+        "id":7,
+        "no": "07",
+        "item": "Royal Milk Tea",
+        "quality": "30",
+        "revenue": "$767.50",
+        "networth": "$106.58"
+    },
+    {
+        "id":8,
+        "no": "08",
+        "item": "Flavored Soymilk Drinks",
+        "quality": "30",
+        "revenue": "$767.50",
+        "networth": "$778.35"
+    }
+]

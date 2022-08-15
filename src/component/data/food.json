@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"Sashimi",
+        "price":"$22",
+        "class":""
+    },
+    {
+        "id":2,
+        "name":"Unagi - Grilled Eel",
+        "price":"$22",
+        "class":"shodow_hover"
+    },
+    {
+        "id":3,
+        "name":"Soba - Buckwheat Noodles",
+        "price":"$22",
+        "class":"shodow_hover"
+    },
+    {
+        "id":4,
+        "name":"Onigiri - Rice Balls",
+        "price":"$22",
+        "class":"shodow_hover"
+    },
+    {
+        "id":5,
+        "name":"Yakitori - Grilled Chicken",
+        "price":"$22",
+        "class":"shodow_hover"
+    },
+    {
+        "id":6,
+        "name":"Miso Soup",
+        "price":"$22",
+        "class":""
+    }
+]

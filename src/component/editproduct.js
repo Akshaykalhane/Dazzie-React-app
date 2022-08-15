@@ -1,33 +1,17 @@
 import React from "react";
 import {Link } from 'react-router-dom';
+import Header from "./Header";
 
 import './sass/editorder.css';
 
 const EditProduct=()=>{
     return(
         <>
-        <header className="header">
-        <div className="logo">
-            <div className="logo-square"></div>
-            <div className="logo-text"><h2>Dazzie</h2></div>
-        </div>
-        <div className="user-info">
-            <div className="notification-bell">
-                <img src="./images/Notification Bell.svg" alt="" />
-            </div>
-            <div className="user-details">
-                <div className="user-circle"></div>
-                <div className="user-name">
-                    <h3>Sumanto</h3>
-                    <p>Cashier</p>
-                </div>
-            </div>
-        </div>
-    </header>
+    <Header />
 
     <div className="side-bar">
         <div className="side-bar-btn">
-            <button ><Link to={'/'}><i class="fa fa-square-o" style={{color:'#000'}}></i></Link></button>
+            <button ><Link to={'/'}><i className="fa fa-square-o" style={{color:'#000'}}></i></Link></button>
             <button> <Link to={'/order'}> <img src="./images/orders.svg" alt="" /></Link> </button>
             <button> <Link to={'/customer'}> <img src="./images/customer.svg" alt="" /></Link> </button>
             <button className="active"> <Link to={'/editproduct'}> <img src="./images/Package.svg" alt="" /></Link></button>

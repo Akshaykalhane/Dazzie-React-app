@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "employee_name":"Leslie Alexander",
+        "position":"Admin",
+        "class":"admin"
+    },
+    {
+        "id":2,
+        "employee_name":"Floyd Miles",
+        "position":"Cashier",
+        "class":"admin cashier"
+    },
+    {
+        "id":3,
+        "employee_name":"Kristin Watson",
+        "position":"Chef",
+        "class":"admin chef"
+    },
+    {
+        "id":4,
+        "employee_name":"Devon Lane",
+        "position":"Waitress",
+        "class":"admin waitress"
+    },
+    {
+        "id":5,
+        "employee_name":"Marvin McKinney",
+        "position":"Dishwasher",
+        "class":"admin dishwasher"
+    },
+    {
+        "id":6,
+        "employee_name":"Jerome Bell",
+        "position":"Chef",
+        "class":"admin chef"
+    }
+]

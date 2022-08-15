@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "no": "01",
+        "item": "Sashimi",
+        "sold": "430"
+    },
+    {
+        "id": 2,
+        "no": "02",
+        "item": "Unagi - Grilled Eel",
+        "sold": "200"
+    },
+    {
+        "id": 3,
+        "no": "03",
+        "item": "Soba - Buckwheat Noodles",
+        "sold": "180"
+    },
+    {
+        "id": 4,
+        "no": "04",
+        "item": "Onigiri - Rice Balls",
+        "sold": "120"
+    },
+    {
+        "id": 5,
+        "no": "05",
+        "item": "Yakitori - Grilled Chicken",
+        "sold": "80"
+    },
+    {
+        "id": 6,
+        "no": "06",
+        "item": "Royal Milk Tea",
+        "sold": "70"
+    }
+]

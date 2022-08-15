@@ -1,0 +1,82 @@
+[
+    {
+        "id":"XXX1",
+        "name":"Ariene McCoy",
+        "join_date":"1 February 2021",
+        "total_visit":"2",
+        "purchased_item":"americano (10); latte (8); cappuccino (14); macchiato (1); vanilla latte (5);",
+        "total_spend":"$490.51"
+    },
+    {
+        "id":"XXX2",
+        "name":"Savannah Nguyen",
+        "join_date":"3 February 2021",
+        "total_visit":"3",
+        "purchased_item":"americano (10); latte (8); cappuccino (14); macchiato (1); vanilla latte (5);",
+        "total_spend":"$396.84"
+    },
+    {
+        "id":"XXX3",
+        "name":"Jacob Jones",
+        "join_date":"5 February 2021",
+        "total_visit":"6",
+        "purchased_item":"americano (10); latte (8); cappuccino (14); macchiato (1); vanilla latte (5);",
+        "total_spend":"$406.27"
+    },
+    {
+        "id":"XXX4",
+        "name":"Jerome Bell",
+        "join_date":"1 February 2021",
+        "total_visit":"12",
+        "purchased_item":"americano (10); latte (8); cappuccino (14); macchiato (1); vanilla latte (5);",
+        "total_spend":"$767.50"
+    },
+    {
+        "id":"XXX5",
+        "name":"Cody Fisher",
+        "join_date":"18 February 2021",
+        "total_visit":"14",
+        "purchased_item":"americano (10); latte (8); cappuccino (14); macchiato (1); vanilla latte (5);",
+        "total_spend":"$475.22"
+    },
+    {
+        "id":"XXX6",
+        "name":"Kathryn Murphy",
+        "join_date":"12 February 2021",
+        "total_visit":"53",
+        "purchased_item":"americano (10); latte (8); cappuccino (14); macchiato (1); vanilla latte (5);",
+        "total_spend":"$601.13"
+    },
+    {
+        "id":"XXX7",
+        "name":"Jane Cooper",
+        "join_date":"1 February 2021",
+        "total_visit":"21",
+        "purchased_item":"americano (10); latte (8); cappuccino (14); macchiato (1); vanilla latte (5);",
+        "total_spend":"$293.01"
+    },
+    {
+        "id":"XXX8",
+        "name":"Ronaldo Richards",
+        "join_date":"15 February 2021",
+        "total_visit":"31",
+        "purchased_item":"americano (10); latte (8); cappuccino (14); macchiato (1); vanilla latte (5);",
+        "total_spend":"$948.55"
+    },
+    {
+        "id":"XXX9",
+        "name":"Theresa Webb",
+        "join_date":"21 February 2021",
+        "total_visit":"41",
+        "purchased_item":"americano (10); latte (8); cappuccino (14); macchiato (1); vanilla latte (5);",
+        "total_spend":"$928.41"
+    },
+    {
+        "id":"XX10",
+        "name":"Annette Black",
+        "join_date":"11 February 2021",
+        "total_visit":"6",
+        "purchased_item":"americano (10); latte (8); cappuccino (14); macchiato (1); vanilla latte (5);",
+        "total_spend":"$473.85"
+    }
+]

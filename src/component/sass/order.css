@@ -7,6 +7,200 @@
 
 body {
   background-color: #f7f7f7;
+  font-family: 'Mulish';
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  -webkit-box-shadow: 0px 1px 1px #e2e2e2;
+          box-shadow: 0px 1px 1px #e2e2e2;
+  padding: 10px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11123213;
+}
+
+.logo {
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 20px;
+}
+
+.logo .logo-square {
+  width: 30px;
+  height: 30px;
+  background-color: #e2e2e2;
+  border-radius: 5px;
+}
+
+.logo .logo-text {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.user-info {
+  width: 200px;
+  margin-right: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.user-details {
+  width: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.user-details .user-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e2e2e2;
+}
+
+.user-details .user-name h3 {
+  font-size: 19px;
+  color: #11142d;
+}
+
+.user-details .user-name p {
+  font-size: 15px;
+  color: #92929d;
+}
+
+.side-bar {
+  width: 80px;
+  background-color: #ffffff;
+  min-height: 570px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  padding: 10px;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  -webkit-box-shadow: 1px 1px 1px #e2e2e2;
+          box-shadow: 1px 1px 1px #e2e2e2;
+}
+
+.side-bar .side-bar-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 20px;
+  gap: 0.5rem;
+}
+
+.side-bar .side-bar-btn button {
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.side-bar .side-bar-btn button:hover {
+  background-color: #5541d7;
+}
+
+.side-bar .active {
+  width: 40px;
+  height: 40px;
+  background-color: #5541d7 !important;
+  border-radius: 5px;
+}
+
+.side-bar .setting-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+}
+
+.side-bar .setting-btn button {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
 }
 
 .header {
@@ -315,7 +509,7 @@ body {
 }
 
 .order-table table tr {
-  text-align: center;
+  text-align: left;
   padding: 10px 10px;
 }
 
@@ -396,7 +590,7 @@ body {
 
 .sold-item-user {
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   position: relative;
   top: 0;
   left: 0;
@@ -418,7 +612,7 @@ body {
 }
 
 .sold-item-user .user-div .user-info2 {
-  width: 130px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,24 +622,28 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin-bottom: 10px;
 }
 
 .sold-item-user .user-div .user-info2 .user-img1 {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 7px;
   background-color: #e2e2e2;
   margin-right: 10px;
 }
 
 .sold-item-user .user-div .user-info2 .user-name1 {
-  font-size: 15px;
+  font-size: 14px;
   color: #11142d;
-  font-weight: bold;
+  text-align: left;
 }
 
 .sold-item-user .user-div .item-quantity {
   color: #92929d;
+  font-size: 14px;
 }
 /*# sourceMappingURL=order.css.map */

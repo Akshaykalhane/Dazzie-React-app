@@ -1,3 +1,4 @@
+@import './headerAndSidebar';
 *{
     margin: 0;
     padding: 0;
@@ -151,7 +152,9 @@ $text-color3:#92929d;
 
 .order-container{
     max-width: 90%;
-    
+    // height: 100px;
+    // padding: 10px;
+    // border: 1px solid red;
     position: absolute;
     top: 90px;
     right: 20px;
@@ -241,7 +244,7 @@ $text-color3:#92929d;
         overflow: hidden;
         color: $text-color1;
         tr{
-            text-align: center;
+            text-align: left;
             padding: 10px 10px;
         }
         td,th{
@@ -310,7 +313,7 @@ $text-color3:#92929d;
 
 .sold-item-user{
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     // border: 1px solid red;
     position: relative;
     top: 0;
@@ -321,25 +324,28 @@ $text-color3:#92929d;
         top: 0;
         @include flexprops();
         .user-info2{
-            width: 130px;
+            width: 210px;
             // border: 1px solid red;
             @include flexprops();
+            justify-content: flex-start;
             margin-bottom: 10px;
             .user-img1{
-                width: 50px;
-                height: 50px;
+                width: 40px;
+                height: 40px;
                 border-radius: 7px;
                 background-color: $layout-color2;
                 margin-right: 10px;
             }
             .user-name1{
-                font-size: 15px;
+                font-size: 14px;
                 color: $text-color1;
-                font-weight: bold;
+                text-align: left;
+                // font-weight: bold;
             }
         }
         .item-quantity{
             color: $text-color3;
+            font-size: 14px;
         }
     }
 }

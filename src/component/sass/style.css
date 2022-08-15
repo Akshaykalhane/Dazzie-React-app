@@ -193,9 +193,10 @@ body {
 .category-container {
   max-width: 90%;
   height: 100%;
-  min-height: 995px;
+  min-height: 999px;
   border-radius: 6px;
   background-color: #ffffff;
+  padding-bottom: 20px;
   position: absolute;
   top: 90px;
   right: 10px;
@@ -363,6 +364,11 @@ body {
   top: 0;
   left: 0;
   padding-top: 10px;
+}
+
+.food-boxes .food-box:hover {
+  -webkit-box-shadow: 0px 0px 5px #727272;
+          box-shadow: 0px 0px 5px #727272;
 }
 
 .food-boxes .food-box .img-box {

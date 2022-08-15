@@ -1,0 +1,66 @@
+[
+    {
+        "id":"01",
+        "code":"20% Off Entire Order",
+        "discount":"20%",
+        "start_date":"February 14 2021",
+        "end_date":"February 17 2021",
+        "activate":"checked"
+    },
+    {
+        "id":"02",
+        "code":"10% Off Entire Item",
+        "discount":"10%",
+        "start_date":"February 14 2021",
+        "end_date":"February 17 2021",
+        "activate":""
+    },
+    {
+        "id":"03",
+        "code":"50% Off Entire Order",
+        "discount":"50%",
+        "start_date":"February 14 2021",
+        "end_date":"February 17 2021",
+        "activate":""
+    },
+    {
+        "id":"04",
+        "code":"10% Off Entire Order",
+        "discount":"10%",
+        "start_date":"February 14 2021",
+        "end_date":"February 17 2021",
+        "activate":""
+    },
+    {
+        "id":"05",
+        "code":"60% Off Entire Item",
+        "discount":"60%",
+        "start_date":"February 14 2021",
+        "end_date":"February 17 2021",
+        "activate":""
+    },
+    {
+        "id":"06",
+        "code":"70% Off Entire Item",
+        "discount":"70%",
+        "start_date":"February 14 2021",
+        "end_date":"February 17 2021",
+        "activate":"checked"
+    },
+    {
+        "id":"07",
+        "code":"20% Off Entire Item",
+        "discount":"20%",
+        "start_date":"February 14 2021",
+        "end_date":"February 17 2021",
+        "activate":"checked"
+    },
+    {
+        "id":"08",
+        "code":"20% Off Entire Order",
+        "discount":"20%",
+        "start_date":"February 14 2021",
+        "end_date":"February 17 2021",
+        "activate":"checked"
+    }
+]
